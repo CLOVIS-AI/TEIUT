@@ -1,0 +1,17 @@
+ **** TIME_FIGHTER ****
+by P4Rt!cL&S
+
+
+
+Abstract class Entity
+
+PUBLIC
+
+abstract void paint(float x, float y);
+	Used to draw the entity on the screen.
+
+
+
+
+
+PRIVATE

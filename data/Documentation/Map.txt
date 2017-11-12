@@ -1,0 +1,62 @@
+﻿ **** TIME_FIGHTER ****
+by P4Rt!cL&S
+
+
+
+
+
+
+class Map
+
+
+Map();
+	Constructor by default.
+
+
+
+
+
+
+
+
+***********************      PUBLIC       **********************
+
+Floor getPreviousFloor(Floor F);
+	Returns the floor under the floor F.
+	WARNING. If there's no floor under floor F, throws « IndexOutOfBoundsException »
+
+
+
+
+
+
+
+
+*********************      PRIVATE        ***********************
+
+ArrayList<Case[][]> map;
+	ArrayList of floors in the dongeon, 0 is the lowest floor.
+	Each floor is represented by a 2D array of cases.
+
+
+
+int currentFloor;
+	The number ID of the floor where the player is.
+
+
+
+final int sizeX;
+	The X size of the map (horizontal).
+	Supposed to be set at 40 but might change in future versions.
+
+
+
+final int sizeY;
+	The Y size of the map (vertical).
+	Supposed to be set at 40 but might change in future versions.
+
+
+
+private Case[][] generateFloor();
+	Generate one floor and returns it.
+

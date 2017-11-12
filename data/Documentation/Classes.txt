@@ -1,0 +1,55 @@
+﻿ **** TIME_FIGHTER ****
+by P4Rt!cL&S
+
+Architecture des classes
+
+CLASSES
+Entity
+	FIELDS
+		
+	CLASSES
+	AliveEntity
+		Player
+		Mob
+	StaticEntity
+
+Item
+	Weapon
+		Sword
+		Rapier
+		Axe
+		Wand
+	Armor
+		Head
+		Chest
+		Legs
+		Foot
+
+
+
+
+
+Personnage
+	HP 					(via AliveEntity)
+	Max HP 				(via AliveEntity)
+	Mana
+	Max Mana
+	Defense
+	Strength
+	Weapon
+		Attack
+		Durability
+		Mana cost
+	Armor
+		Head
+			Defense
+			Durability
+		Chest
+			Defense
+			Durability
+		Leggings
+			Defense
+			Durability
+		Boots
+			Defense
+			Durability			
